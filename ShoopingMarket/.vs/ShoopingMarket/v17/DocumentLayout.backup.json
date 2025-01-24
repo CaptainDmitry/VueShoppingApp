@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\Project\\VS\\repos\\ShoopingMarket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|p:\\project\\vs\\repos\\shoopingmarket\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|solutionrelative:controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|p:\\project\\vs\\repos\\shoopingmarket\\model\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|solutionrelative:model\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|p:\\project\\vs\\repos\\shoopingmarket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|p:\\project\\vs\\repos\\shoopingmarket\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|p:\\project\\vs\\repos\\shoopingmarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|p:\\project\\vs\\repos\\shoopingmarket\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|p:\\project\\vs\\repos\\shoopingmarket\\model\\bdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|solutionrelative:model\\bdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "P:\\Project\\VS\\repos\\ShoopingMarket\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "P:\\Project\\VS\\repos\\ShoopingMarket\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-24T12:49:44.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "P:\\Project\\VS\\repos\\ShoopingMarket\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "P:\\Project\\VS\\repos\\ShoopingMarket\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-24T12:48:33.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Item.cs",
+              "DocumentMoniker": "P:\\Project\\VS\\repos\\ShoopingMarket\\Model\\Item.cs",
+              "RelativeDocumentMoniker": "Model\\Item.cs",
+              "ToolTip": "P:\\Project\\VS\\repos\\ShoopingMarket\\Model\\Item.cs",
+              "RelativeToolTip": "Model\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T12:19:54.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "P:\\Project\\VS\\repos\\ShoopingMarket\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemsController.cs",
+              "ToolTip": "P:\\Project\\VS\\repos\\ShoopingMarket\\Controllers\\ItemsController.cs*",
+              "RelativeToolTip": "Controllers\\ItemsController.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T12:14:35.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BDContext.cs",
+              "DocumentMoniker": "P:\\Project\\VS\\repos\\ShoopingMarket\\Model\\BDContext.cs",
+              "RelativeDocumentMoniker": "Model\\BDContext.cs",
+              "ToolTip": "P:\\Project\\VS\\repos\\ShoopingMarket\\Model\\BDContext.cs",
+              "RelativeToolTip": "Model\\BDContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T11:47:36.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "P:\\Project\\VS\\repos\\ShoopingMarket\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "P:\\Project\\VS\\repos\\ShoopingMarket\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T19:13:05.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "P:\\Project\\VS\\repos\\ShoopingMarket\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "P:\\Project\\VS\\repos\\ShoopingMarket\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T19:13:02.698Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

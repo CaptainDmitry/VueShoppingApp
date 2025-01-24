@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Покупки</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h2>Покупки</h2>
+        <form @submit.prevent = "addItem">
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Товар: </label>
+                    </td>
+                    <td>
+                        <input v-model="newItem.name" placeholder="Название товара" required> <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Цена: </label>
+                    </td>
+                    <td>
+                        <input v-model.number="newItem.price" type="number" placeholder="Цена" min="1" required> <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Количество: </label>
+                    </td>
+                    <td>
+                        <input v-model.number="newItem.quantity" type="number" placeholder="Количество" required> <br>
+                    </td>
+                </tr>
+            </table>
+            <button type="submit">Добавить</button>
+        </form>
+
+        <table border="1" style="margin-top: 20px; width: 100%; text-align: left;">
+            <thead>
+                <tr>
+                    <td>Название</td>
+                    <td>Цена</td>
+                    <td>Количество</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(item, index) in items" :key="index">
+                    <td>{{ item.name }}</td>
+                    <td>{{ item.price }}</td>
+                    <td>{{ item.quantity }}</td>
+                    <td> <button @click="removeItem(item.id)">Удалить</button> </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 v-if="items.length > 0">Общая стоимость: {{ totalCost.toFixed(2) }} руб.</h2>
+    </div>
+
+    <script>
+        const app = Vue.createApp({
+            data() {
+                return {
+                    items: [],
+                    newItem: {name: '', price: 0, quantity: 1},
+                    apiUrl: 'http://localhost:5145/api/Items'
+                };
+            },
+            computed:{
+                totalCost(){
+                    return this.items.reduce((sum, item) => sum + item.price * item.quantity, 0);
+                }
+            },
+            methods: {
+                async fetchItems(){
+                    try {
+                        const response = await fetch(this.apiUrl);
+                        this.items = await response.json();
+                    } catch (error) {
+                        console.error('Ошибка загрузки файлов ' + error)
+                    }
+                },
+                async addItem(){
+
+                    try {
+                        const response = await fetch(this.apiUrl, {
+                            method: 'Post',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify(this.newItem)
+                        })
+                        const addItem = await response.json();
+                        console.info(addItem);
+                        this.items.push(addItem);
+                        this.newItem = {name: '', quantity: 1, price: 0};
+                    } catch (error) {
+                        console.error('Ошибка добавления товара ' + error)
+                    }                    
+                },
+                async removeItem(id){
+                    try {
+                        await fetch(`${this.apiUrl}/${id}`, { method: 'DELETE' });
+                        this.items = this.items.filter(item => item.id !== id);
+                    } catch (error) {
+                        console.error('Ошибка удаления товара ' + error) 
+                    }
+                }
+            },
+            mounted() {
+                this.fetchItems();
+                totalCost();
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>

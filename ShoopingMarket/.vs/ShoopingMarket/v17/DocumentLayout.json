@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\Project\\VS\\repos\\ShoopingMarket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|p:\\project\\vs\\repos\\shoopingmarket\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|solutionrelative:controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|p:\\project\\vs\\repos\\shoopingmarket\\model\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|solutionrelative:model\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|p:\\project\\vs\\repos\\shoopingmarket\\model\\bdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|solutionrelative:model\\bdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|p:\\project\\vs\\repos\\shoopingmarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00006D2-7217-466C-98D8-0E36E6B3E969}|ShoopingMarket.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "P:\\Project\\VS\\repos\\ShoopingMarket\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemsController.cs",
+              "ToolTip": "P:\\Project\\VS\\repos\\ShoopingMarket\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "Controllers\\ItemsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T14:19:28.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Item.cs",
+              "DocumentMoniker": "P:\\Project\\VS\\repos\\ShoopingMarket\\Model\\Item.cs",
+              "RelativeDocumentMoniker": "Model\\Item.cs",
+              "ToolTip": "P:\\Project\\VS\\repos\\ShoopingMarket\\Model\\Item.cs",
+              "RelativeToolTip": "Model\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T14:19:27.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BDContext.cs",
+              "DocumentMoniker": "P:\\Project\\VS\\repos\\ShoopingMarket\\Model\\BDContext.cs",
+              "RelativeDocumentMoniker": "Model\\BDContext.cs",
+              "ToolTip": "P:\\Project\\VS\\repos\\ShoopingMarket\\Model\\BDContext.cs",
+              "RelativeToolTip": "Model\\BDContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T14:19:26.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "P:\\Project\\VS\\repos\\ShoopingMarket\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "P:\\Project\\VS\\repos\\ShoopingMarket\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T19:13:02.698Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
